@@ -34,22 +34,31 @@
           url: "losuj.php?id="+$("#idwpisu").val()+"&data_od="+data_form_od+"&data_do="+data_form_do+"&step=2",
           cache: false
         }).done(function( html ) {
-            $("#waiter").html("gotowy");
+            $( "#waiter" ).html("gotowy");
             $( "#step3" ).html( html );
             $( "#step3" ).fadeIn();
         });
 
       }
+      
+      function help(xxx){
+        $(xxx).children("p").show();
+        $(xxx).children(".pytajnik").hide();
+      }
+      
+      
+      
+      
     </script>
 	</head>
 	<body>
 <div id="step1">
 <h1>Witaj w maszynie losującej Mirkorandom ;)</h1>
 <h3 id="waiter">gotowy</h3>
-<p class="hint">Jeśli jesteś autorem wpisu, który chce coś losować, pamiętaj, że losujemy <b>po</b> ustalonej godzinie zakończenia. Więc jeśli zbierasz jeszcze plusy, wróć tutaj później ;)</p>
+<div onclick="help(this)" class="hintbox"><span class="pytajnik">Kliknij tutaj jeśli nie wiesz jeszcze jak działa Mirkorandom!</span><p style="display:none" class="hint">Oto <b>Mirkorandom</b>, czyli Mirkoblogowy automat do losowania jednej osoby, spośród wszsytkich, którzy dali plusa. Aby losować nie musisz być autorem wpisu. Jeśli jednak jesteś autorem to nie musisz nic robić <b>przed</b> dodaniem wpisu na Mirko. Po prostu określ dokładnie do której godziny plusy zbierasz i po tej godzinie wejdź na tą stronę. Jeśli jednak chcesz wylosować teraz, zapraszam do <b>kroku 1</b>:</p></div>
 <h2><b>Krok 1.</b> Wpisz adres wpisu na mirko, lub jego liczbowy identyfikator.</h2>
 
-<p><input type="text" id="idwpisu"> <a href="javascript:checkid()">sprawdź wpis</a></p>
+<p><input onchange="checkid()" type="text" id="idwpisu"> <a href="javascript:checkid()">sprawdź wpis</a></p>
 </div>
 <div style="visible:none" id="step2">
 
