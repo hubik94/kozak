@@ -1,9 +1,8 @@
 <?PHP
-
-  $GLOBALS['WYKOP_API_KEY']='blahblah'; //api key, trzeba sobie taki uzyskac
-  $GLOBALS['WYKOP_API_SEKRET']='blahblahblah'; //secret, rowniez trzeba uzyskac
-  $GLOBALS['MYSQL_HOST']='mojafajnabaza';  //dane myslq
-  $GLOBALS['MYSQL_USER']='user';
-  $GLOBALS['MYSQL_PASS']='haslo';
-  $GLOBALS['MYSQL_DB']='nazwabazy';
+  define("WYKOP_API_KEY", "xx");
+  define("WYKOP_API_SEKRET", "xx");
+  define("MYSQL_HOST", "xx");
+  define("MYSQL_USER", "xx");
+  define("MYSQL_PASS", "xx");
+  define("MYSQL_DB", "xx");
 ?>
