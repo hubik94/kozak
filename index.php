@@ -52,7 +52,7 @@ function help(div_help){
 	</head>
 	<body>
 <div id="step1">
-  <h1>Witaj w maszynie losującej Mirkorandom ;) [trwa przerwa techniczna - 5 minutek ;)]</h1>
+  <h1>Witaj w maszynie losującej Mirkorandom ;)</h1>
   <h3 id="waiter">gotowy</h3>
   <div onclick="help(this)" class="hintbox"><span class="pytajnik">Kliknij tutaj jeśli nie wiesz jeszcze jak działa Mirkorandom ani do czego służy!</span><p style="display:none" class="hint">Oto <b>Mirkorandom</b>, czyli Mirkoblogowy automat do losowania jednej osoby, spośród wszsytkich, którzy dali plusa. Aby losować nie musisz być autorem wpisu. Jeśli jednak jesteś autorem to nie musisz nic robić <b>przed</b> dodaniem wpisu na Mirko. Po prostu określ dokładnie do której godziny plusy zbierasz i po tej godzinie wejdź na tą stronę. Jeśli jednak chcesz wylosować teraz, zapraszam do <b>kroku 1</b>:</p></div>
   <h2><b>Krok 1.</b> Wpisz adres wpisu na mirko, lub jego liczbowy identyfikator.</h2>
