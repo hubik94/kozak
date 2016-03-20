@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script>
 
-//lubie placki
+//pobiera z losuj.php wpis z mirko
 function checkid(){
   $("#waiter").html("pobieram dane...");
   $( "#step2" ).fadeOut();
